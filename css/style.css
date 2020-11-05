@@ -23,4 +23,7 @@
   position: absolute;
   right: 0;
   top: 0;
+  width: auto;
+  height: auto;
+  background-color: green;
 }
