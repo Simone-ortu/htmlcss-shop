@@ -19,11 +19,14 @@
   margin-top: 20px;
   position: relative;
 }
-.off{
+.product .off{
   position: absolute;
   right: 0;
   top: 0;
   width: auto;
   height: auto;
   background-color: green;
+}
+.product:nth-child(even) .off {
+  background-color: red;
 }
