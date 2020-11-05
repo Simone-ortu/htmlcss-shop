@@ -3,10 +3,10 @@
   padding: 0;
 }
 .container {
-  width: 1000px;
-  height: 800px;
   margin: auto;
-  background-color: blue;
+  width: 50%;
+/*  height: 800px;
+  background-color: blue;*/
 
 }
 .product{
@@ -43,4 +43,8 @@
 }
 .product:hover .heart{
   display: block;
+}
+
+section:hover .product{
+  cursor:pointer;
 }
