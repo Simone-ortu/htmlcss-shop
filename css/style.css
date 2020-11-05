@@ -7,12 +7,20 @@
   height: 800px;
   margin: auto;
   background-color: blue;
-  position: relative;
+
 }
 .product{
   display: inline-block;
-  width: 200px;
+  /*width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-color: yellow;*/
+  /*position: absolute;*/
+  margin-left: 5px;
+  margin-top: 20px;
+  position: relative;
+}
+.off{
   position: absolute;
+  right: 0;
+  top: 0;
 }
