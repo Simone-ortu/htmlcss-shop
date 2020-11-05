@@ -5,16 +5,9 @@
 .container {
   margin: auto;
   width: 50%;
-/*  height: 800px;
-  background-color: blue;*/
-
 }
 .product{
   display: inline-block;
-  /*width: 200px;
-  height: 200px;
-  background-color: yellow;*/
-  /*position: absolute;*/
   margin-left: 5px;
   margin-top: 20px;
   position: relative;
@@ -36,7 +29,6 @@
   bottom: 10px;
   left: 0%;
   font-size: 35px;
-  /*display: inline-block;*/
   text-align: center;
   width: 100%;
   color: red;
