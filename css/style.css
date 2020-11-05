@@ -30,3 +30,17 @@
 .product:nth-child(even) .off {
   background-color: red;
 }
+.product .heart{
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  left: 0%;
+  font-size: 35px;
+  /*display: inline-block;*/
+  text-align: center;
+  width: 100%;
+  color: red;
+}
+.product:hover .heart{
+  display: block;
+}
